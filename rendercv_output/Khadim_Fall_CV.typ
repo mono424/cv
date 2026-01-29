@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 1,
-    day: 27,
+    day: 29,
   ),
 )
 
@@ -99,25 +99,13 @@
 
 #education-entry(
   [
-    #strong[Technical University of Munich], Computer Science
-
-  ],
-  [
-    Munich, Germany
-
-    Apr 2026 – Sept 2028
-
-  ],
-  degree-column: [
-    #strong[MS]
-  ],
-)
-
-#education-entry(
-  [
     #strong[Center for Digital Technology and Management (CDTM)], Technology Management
 
-    - Selected for a highly competitive interdisciplinary program focusing on innovation, entrepreneurship, and digital technologies.
+    - Member of the elite interdisciplinary program (\<5\% acceptance rate) combining entrepreneurship and technology.
+
+    - Part of 'Center Life' task force leading the development of the new internal campus management tool.
+
+    - Trend Seminar: Conducted research on 'The Future of Software Engineering & IT Operations'.
 
   ],
   [
@@ -133,57 +121,21 @@
 
 #education-entry(
   [
-    #strong[Technical University of Munich], Computer Science
+    #strong[Technical University of Munich (TUM)], Computer Science
 
-    - Current Average Grade: 2.1
+    - M.Sc. Admission secured (starts 2026-04). Top 5\% in Algorithms & Data Structures.
 
-    - Notable course: Algorithms and data structures, Grade: 1.7 (Top 5\%)
-
-  ],
-  [
-    Munich, Germany
-
-    Sept 2020 – Sept 2025
-
-  ],
-  degree-column: [
-    #strong[BS]
-  ],
-)
-
-#education-entry(
-  [
-    #strong[University of Innsbruck], Computer Science
-
-  ],
-  [
-    Innsbruck, Austria
-
-    Sept 2019 – July 2020
-
-  ],
-  degree-column: [
-    #strong[BS]
-  ],
-)
-
-#education-entry(
-  [
-    #strong[SAE Institute], Web Development
-
-    - Average Grade: First Class Honours
-
-    - Awards: SAE Alumni Award 2017 (Best Web-Production), SAE Alumni Award 2020 (Best Web and Tech Production)
+    - B.Sc. Thesis (Grade: 1.0): 'Interactive 3D Space Rendering with Live Sensor Streams', supervised by Prof. Nassir Navab. Two prototypes deployed at TUM NarvisLab.
 
   ],
   [
     Munich, Germany
 
-    Sept 2015 – June 2018
+    Oct 2020 – Sept 2028
 
   ],
   degree-column: [
-    #strong[BS]
+    #strong[M.Sc.]
   ],
 )
 
@@ -191,9 +143,34 @@
 
 #regular-entry(
   [
-    #strong[Productlane], Fullstack Developer (Working Student)
+    #strong[Peaklight Inc.], Founding Engineer (5\% Equity)
 
-    - Responsible for the knowledge base development using LangChain, Meillisearch, Next.js, Prisma, Replicache, and Node.js.
+    - Tech Employee \#1. Built core infrastructure from scratch: Hetzner baremetal servers, K3s (Kubernetes), Terraform, Traefik, and Cloudflare.
+
+    - Architected backend pipelines to ingest, contextualize, and search news data—processing 30K+ context items and 500+ articles at launch.
+
+    - Established CI\/CD workflows using GitHub Actions and Container Registry, defining the developer environment for future hires.
+
+  ],
+  [
+    Munich, Germany
+
+    Oct 2023 – present
+
+    2 years 5 months
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Productlane], Fullstack Engineer (Working Student)
+
+    - Implemented the 'Docs' feature: enabling customers to host product documentation publicly with embeddable widget.
+
+    - Engineered an AI chatbot using Vercel AI SDK, and Meilisearch to perform RAG on roadmaps, changelogs, and documentation.
+
+    - Stack: Next.js, Prisma, Replicache, Node.js.
 
   ],
   [
@@ -208,28 +185,11 @@
 
 #regular-entry(
   [
-    #strong[Peaklight Inc.], Founding Engineer (Freelancer)
-
-    - Developing core infrastructure using Kubernetes, Terraform, Docker, and Go.
-
-    - Crafted the first prototype with Next.js and Tailwind and established the developer environment for new hires.
-
-  ],
-  [
-    Munich, Germany
-
-    Oct 2023 – present
-
-    2 years 4 months
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Technical University of Munich], Software Developer (Working Student)
 
-    - Developing the TUM-Livestream website using GO, Alpine.js & Tailwind.
+    - Developed and maintained the TUM-Livestream platform used by the entire School of CIT student body.
+
+    - Maintained high-concurrency video streaming features using Go, Alpine.js, and Tailwind CSS.
 
   ],
   [
@@ -244,9 +204,9 @@
 
 #regular-entry(
   [
-    #strong[SAP Canada], SAP Product Engineer Intern
+    #strong[SAP Canada], Product Engineer Intern
 
-    - Enhancing Bash installation scripts and fixing bugs in the Angular Schematics of the Spartacus Storefront App to improve functionality and reliability.
+    - Reduced Spartacus Storefront installation script runtimes by 3x (30min→10min) by refactoring Bash installation scripts for parallel execution.
 
   ],
   [
@@ -261,57 +221,21 @@
 
 #regular-entry(
   [
-    #strong[EY], Consulting Intern
+    #strong[Early Career], Developer & Consultant (CHECK24, EY, Alyne)
 
-    - Provided IT support, including creating a 'Best-Practice' IT usage strategy for an automotive association's management.
+    - CHECK24: Developed at the 'Contract Center' using React and Express. Initiated lightning talks on XSS prevention.
 
-    - Developed a database deletion concept for a leading manufacturer ensuring compliance with EU data protection laws.
+    - EY: Provided IT consulting, including 'Best-Practice' IT usage strategy and GDPR-compliant database deletion concepts.
 
-  ],
-  [
-    Munich, Germany
-
-    Aug 2021 – Oct 2021
-
-    3 months
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[CHECK24], Junior Software Developer
-
-    - Developed at the 'Contract Center' using JavaScript, ReactJS, and Express.
-
-    - Initiated lightning talks, with a presentation on 'Cross-Site-Scripting'.
+    - Alyne & SAE: Web development (First Class Honours). Winner of SAE Alumni Awards 2017 & 2020.
 
   ],
   [
     Munich, Germany
 
-    Mar 2019 – Aug 2019
+    Apr 2017 – Oct 2021
 
-    6 months
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Alyne GmbH], Software Developer
-
-    - Developed and optimized the service platform, including a complex campaign function with JavaScript, Sails.js, Ember.js, Pusher.js, and Node.js.
-
-    - Performed performance enhancements in MongoDB queries.
-
-  ],
-  [
-    Munich, Germany
-
-    Apr 2017 – Sept 2018
-
-    1 year 6 months
+    4 years 7 months
 
   ],
 )
@@ -320,32 +244,28 @@
 
 #regular-entry(
   [
-    #strong[PawnTown]
+    #strong[DBSP Sync Engine (Spooky)]
 
-    - Developing an over-the-board chess event live broadcasting platform.
+    - Building a sync engine using DBSP (Database Stream Processing) for incremental view maintenance.
 
-    - Uses a custom graph algorithm to predict and reconstruct missing game information for accurate live game analysis and complete game files.
-
-    - More info at pawn.town
+    - Rust\/WASM core with TypeScript bindings for real-time data synchronization in SurrealDB.
 
   ],
   [
     Munich, Germany
 
-    Sept 2022 – present
+    Oct 2024 – present
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[WhitePawn App]
+    #strong[PawnTown & WhitePawn]
 
-    - Developing a cross-platform chess app compatible with all major physical chessboards.
+    - Built live over-the-board chess broadcasting platform with custom linear graph algorithm to predict and reconstruct missing game moves.
 
-    - Recognized with the SAE Alumni Award for Best Web and Tech Production 2021.
-
-    - More info at whitepawn.app and khad.im\/p\/white-pawn
+    - WhitePawn: Cross-platform app connecting physical chessboards to engines. Winner: SAE Alumni Award for Best Tech Production 2021.
 
   ],
   [
@@ -358,13 +278,11 @@
 
 #regular-entry(
   [
-    #strong[Maltego Graph Enrichment Engine]
+    #strong[Maltego Graph Engine (Team Lead)]
 
-    - Developed a Graph Enrichment Engine for Maltego to transform graphs and generate new diagrams.
+    - Led a team of 3 to build a Strategy Builder UI that compiles visual flows into optimized Cypher queries for Neo4j\/Memgraph.
 
-    - Includes a Strategy Builder UI and resolver to translate strategies into single Cypher queries for Memgraph or Neo4j.
-
-    - Role: Team Lead (Outcome of 'JavaScript Praktikum' module at TUM).
+    - Presented final prototype to Maltego stakeholders; outcome of TUM JavaScript Praktikum.
 
   ],
   [
@@ -381,9 +299,7 @@
   [
     #strong[TUM.ai Makeathon (1st Place)]
 
-    - Tackled a challenge by CHECK24: 'A prototype of a reverse bidding mechanism for a CHECK24 product'.
-
-    - Won first place and 2000 EUR prize money with team members Paola Andrea Herrera Trigo, Jaro Müller, and Viktor Presber.
+    - Tackled CHECK24 challenge: Built a reverse bidding mechanism prototype. Won €2,000 prize.
 
   ],
   [
@@ -398,11 +314,7 @@
   [
     #strong[IdeaHack! at WHU (1st Place)]
 
-    - Won the Project AMIGO Challenge hosted by Dr. von Hauner Children's Hospital.
-
-    - Developed and deployed AI training algorithms on a secure hospital platform to diagnose rare diseases in children.
-
-    - Team: Alexandre Mercier, Leon Buser, and Franz Stelzl.
+    - Won Project AMIGO Challenge (Dr. von Hauner Children's Hospital). Deployed privacy-preserving AI on secure hospital infrastructure to diagnose rare pediatric diseases.
 
   ],
   [
@@ -451,10 +363,6 @@
 
 == Skills
 
-#strong[Languages:] German (Native), English (B2), French (A1)
+#strong[Stack:] Go, TS, Rust, Java, C, Dart | K8s, Terraform, Docker, GCP | React, Next.js, Neo4j, SurrealDB, LangChain
 
-#strong[Programming:] Go (Advanced), Dart (Advanced), TypeScript (Advanced), C (Advanced), Java (Advanced), Rust (Basics)
-
-#strong[Cloud & DevOps:] GCP (Advanced), Azure (Advanced), Docker (Advanced), Terraform (Advanced), Kubernetes (Basics)
-
-#strong[Interests:] Boxing, Ice Skating, Chess, Photography, Philosophical Reading & Discussions, Coding
+#strong[Languages:] German (Native), English (C1), French (A1) | Interests: Boxing, Chess, Photography

@@ -11,12 +11,6 @@ cv:
       username: mono424
   sections:
     education:
-      - institution: Technical University of Munich
-        area: Computer Science
-        degree: MS
-        start_date: 2026-04
-        end_date: 2028-09
-        location: Munich, Germany
       - institution: Center for Digital Technology and Management (CDTM)
         area: Technology Management
         degree: Hons
@@ -24,124 +18,94 @@ cv:
         end_date: present
         location: Munich, Germany
         highlights:
-          - "Selected for a highly competitive interdisciplinary program focusing on innovation, entrepreneurship, and digital technologies."
-      - institution: Technical University of Munich
+          - "Member of the elite interdisciplinary program (<5% acceptance rate) combining entrepreneurship and technology."
+          - "Part of 'Center Life' task force leading the development of the new internal campus management tool."
+          - "Trend Seminar: Conducted research on 'The Future of Software Engineering & IT Operations'."
+      - institution: Technical University of Munich (TUM)
         area: Computer Science
-        degree: BS
-        start_date: 2020-09
-        end_date: 2025-09
+        degree: "M.Sc."
+        start_date: 2020-10
+        end_date: 2028-09
         location: Munich, Germany
         highlights:
-          - "Current Average Grade: 2.1"
-          - "Notable course: Algorithms and data structures, Grade: 1.7 (Top 5%)"
-      - institution: University of Innsbruck
-        area: Computer Science
-        degree: BS
-        start_date: 2019-09
-        end_date: 2020-07
-        location: Innsbruck, Austria
-      - institution: SAE Institute
-        area: Web Development
-        degree: BS
-        start_date: 2015-09
-        end_date: 2018-06
-        location: Munich, Germany
-        highlights:
-          - "Average Grade: First Class Honours"
-          - "Awards: SAE Alumni Award 2017 (Best Web-Production), SAE Alumni Award 2020 (Best Web and Tech Production)"
+          - "M.Sc. Admission secured (starts 2026-04). Top 5% in Algorithms & Data Structures."
+          - "B.Sc. Thesis (Grade: 1.0): 'Interactive 3D Space Rendering with Live Sensor Streams', supervised by Prof. Nassir Navab. Two prototypes deployed at TUM NarvisLab."
     experience:
-      - company: Productlane
-        position: Fullstack Developer (Working Student)
-        start_date: 2025-04
-        end_date: present
-        location: Munich, Germany
-        highlights:
-          - "Responsible for the knowledge base development using LangChain, Meillisearch, Next.js, Prisma, Replicache, and Node.js."
       - company: Peaklight Inc.
-        position: Founding Engineer (Freelancer)
+        position: Founding Engineer (5% Equity)
         start_date: 2023-10
         end_date: present
         location: Munich, Germany
         highlights:
-          - "Developing core infrastructure using Kubernetes, Terraform, Docker, and Go."
-          - "Crafted the first prototype with Next.js and Tailwind and established the developer environment for new hires."
+          - "Tech Employee #1. Built core infrastructure from scratch: Hetzner baremetal servers, K3s (Kubernetes), Terraform, Traefik, and Cloudflare."
+          - "Architected backend pipelines to ingest, contextualize, and search news data—processing 30K+ context items and 500+ articles at launch."
+          - "Established CI/CD workflows using GitHub Actions and Container Registry, defining the developer environment for future hires."
+      - company: Productlane
+        position: Fullstack Engineer (Working Student)
+        start_date: 2025-04
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Implemented the 'Docs' feature: enabling customers to host product documentation publicly with embeddable widget."
+          - "Engineered an AI chatbot using Vercel AI SDK, and Meilisearch to perform RAG on roadmaps, changelogs, and documentation."
+          - "Stack: Next.js, Prisma, Replicache, Node.js."
       - company: Technical University of Munich
         position: Software Developer (Working Student)
         start_date: 2021-12
         end_date: 2023-08
         location: Munich, Germany
         highlights:
-          - "Developing the TUM-Livestream website using GO, Alpine.js & Tailwind."
+          - "Developed and maintained the TUM-Livestream platform used by the entire School of CIT student body."
+          - "Maintained high-concurrency video streaming features using Go, Alpine.js, and Tailwind CSS."
       - company: SAP Canada
-        position: SAP Product Engineer Intern
+        position: Product Engineer Intern
         start_date: 2022-08
         end_date: 2022-10
         location: Montreal, Canada
         highlights:
-          - "Enhancing Bash installation scripts and fixing bugs in the Angular Schematics of the Spartacus Storefront App to improve functionality and reliability."
-      - company: EY
-        position: Consulting Intern
-        start_date: 2021-08
+          - "Reduced Spartacus Storefront installation script runtimes by 3x (30min→10min) by refactoring Bash installation scripts for parallel execution."
+      - company: Early Career
+        position: Developer & Consultant (CHECK24, EY, Alyne)
+        start_date: 2017-04
         end_date: 2021-10
         location: Munich, Germany
         highlights:
-          - "Provided IT support, including creating a 'Best-Practice' IT usage strategy for an automotive association's management."
-          - "Developed a database deletion concept for a leading manufacturer ensuring compliance with EU data protection laws."
-      - company: CHECK24
-        position: Junior Software Developer
-        start_date: 2019-03
-        end_date: 2019-08
-        location: Munich, Germany
-        highlights:
-          - "Developed at the 'Contract Center' using JavaScript, ReactJS, and Express."
-          - "Initiated lightning talks, with a presentation on 'Cross-Site-Scripting'."
-      - company: Alyne GmbH
-        position: Software Developer
-        start_date: 2017-04
-        end_date: 2018-09
-        location: Munich, Germany
-        highlights:
-          - "Developed and optimized the service platform, including a complex campaign function with JavaScript, Sails.js, Ember.js, Pusher.js, and Node.js."
-          - "Performed performance enhancements in MongoDB queries."
+          - "CHECK24: Developed at the 'Contract Center' using React and Express. Initiated lightning talks on XSS prevention."
+          - "EY: Provided IT consulting, including 'Best-Practice' IT usage strategy and GDPR-compliant database deletion concepts."
+          - "Alyne & SAE: Web development (First Class Honours). Winner of SAE Alumni Awards 2017 & 2020."
     projects:
-      - name: PawnTown
-        start_date: 2022-09
+      - name: DBSP Sync Engine (Spooky)
+        start_date: 2024-10
         end_date: present
         location: Munich, Germany
         highlights:
-          - "Developing an over-the-board chess event live broadcasting platform."
-          - "Uses a custom graph algorithm to predict and reconstruct missing game information for accurate live game analysis and complete game files."
-          - "More info at pawn.town"
-      - name: WhitePawn App
+          - "Building a sync engine using DBSP (Database Stream Processing) for incremental view maintenance."
+          - "Rust/WASM core with TypeScript bindings for real-time data synchronization in SurrealDB."
+      - name: PawnTown & WhitePawn
         start_date: 2021-03
         end_date: present
         location: Munich, Germany
         highlights:
-          - "Developing a cross-platform chess app compatible with all major physical chessboards."
-          - "Recognized with the SAE Alumni Award for Best Web and Tech Production 2021."
-          - "More info at whitepawn.app and khad.im/p/white-pawn"
-      - name: Maltego Graph Enrichment Engine
+          - "Built live over-the-board chess broadcasting platform with custom linear graph algorithm to predict and reconstruct missing game moves."
+          - "WhitePawn: Cross-platform app connecting physical chessboards to engines. Winner: SAE Alumni Award for Best Tech Production 2021."
+      - name: Maltego Graph Engine (Team Lead)
         start_date: 2023-10
         end_date: 2024-02
         location: Munich, Germany
         highlights:
-          - "Developed a Graph Enrichment Engine for Maltego to transform graphs and generate new diagrams."
-          - "Includes a Strategy Builder UI and resolver to translate strategies into single Cypher queries for Memgraph or Neo4j."
-          - "Role: Team Lead (Outcome of 'JavaScript Praktikum' module at TUM)."
+          - "Led a team of 3 to build a Strategy Builder UI that compiles visual flows into optimized Cypher queries for Neo4j/Memgraph."
+          - "Presented final prototype to Maltego stakeholders; outcome of TUM JavaScript Praktikum."
     hackathons:
       - name: TUM.ai Makeathon (1st Place)
         location: Munich, Germany
         date: 2024-04
         highlights:
-          - "Tackled a challenge by CHECK24: 'A prototype of a reverse bidding mechanism for a CHECK24 product'."
-          - "Won first place and 2000 EUR prize money with team members Paola Andrea Herrera Trigo, Jaro Müller, and Viktor Presber."
+          - "Tackled CHECK24 challenge: Built a reverse bidding mechanism prototype. Won €2,000 prize."
       - name: IdeaHack! at WHU (1st Place)
         location: Munich, Germany
         date: 2023-10
         highlights:
-          - "Won the Project AMIGO Challenge hosted by Dr. von Hauner Children's Hospital."
-          - "Developed and deployed AI training algorithms on a secure hospital platform to diagnose rare diseases in children."
-          - "Team: Alexandre Mercier, Leon Buser, and Franz Stelzl."
+          - "Won Project AMIGO Challenge (Dr. von Hauner Children's Hospital). Deployed privacy-preserving AI on secure hospital infrastructure to diagnose rare pediatric diseases."
     volunteering:
       - company: START Munich
         position: Community Member
@@ -160,11 +124,9 @@ cv:
           - "Taught 'Python for Beginners' to kids from families with migratory backgrounds."
           - "Taught 'Introduction to Computer Science' to refugees, migrants, and Germans without access to digital education."
     skills:
+      - label: Stack
+        details: "Go, TS, Rust, Java, C, Dart | K8s, Terraform, Docker, GCP | React, Next.js, Neo4j, SurrealDB, LangChain"
       - label: Languages
-        details: "German (Native), English (B2), French (A1)"
-      - label: Programming
-        details: "Go (Advanced), Dart (Advanced), TypeScript (Advanced), C (Advanced), Java (Advanced), Rust (Basics)"
-      - label: Cloud & DevOps
-        details: "GCP (Advanced), Azure (Advanced), Docker (Advanced), Terraform (Advanced), Kubernetes (Basics)"
-      - label: Interests
-        details: "Boxing, Ice Skating, Chess, Photography, Philosophical Reading & Discussions, Coding"
+        details: "German (Native), English (C1), French (A1) | Interests: Boxing, Chess, Photography"
+locale:
+  language: english

@@ -1,0 +1,181 @@
+cv:
+  name: Khadim Fall
+  location: Munich, Germany
+  email: info@khadimfall.com
+  phone: "+49 151 57307440"
+  website: https://khad.im
+  social_networks:
+    - network: LinkedIn
+      username: khad-im
+    - network: GitHub
+      username: mono424
+  sections:
+    education:
+      - institution: Technical University of Munich
+        area: Computer Science
+        degree: MS
+        start_date: 2026-04
+        end_date: 2028-09
+        location: Munich, Germany
+        highlights:
+          - "Admitted for the upcoming semester."
+      - institution: Center for Digital Technology and Management (CDTM)
+        area: Technology Management
+        degree: Hons
+        start_date: 2024-09
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Member of the interdisciplinary elite program (acceptance rate <5%)."
+          - "Leadership: Leading the 'Center Life' task force to develop the new internal campus management tool."
+          - "Trend Seminar: Conducted research on 'The Future of Software Engineering & IT Operations'."
+          - "MPD: Developed a product prototype in the energy sector."
+      - institution: Technical University of Munich
+        area: Computer Science
+        degree: BS
+        start_date: 2020-09
+        end_date: 2025-09
+        location: Munich, Germany
+        highlights:
+          - "Current Average Grade: 2.1"
+          - "Notable course: Algorithms and data structures, Grade: 1.7 (Top 5%)"
+      - institution: University of Innsbruck
+        area: Computer Science
+        degree: BS
+        start_date: 2019-09
+        end_date: 2020-07
+        location: Innsbruck, Austria
+      - institution: SAE Institute
+        area: Web Development
+        degree: BS
+        start_date: 2015-09
+        end_date: 2018-06
+        location: Munich, Germany
+        highlights:
+          - "Average Grade: First Class Honours"
+          - "Awards: SAE Alumni Award 2017 (Best Web-Production), SAE Alumni Award 2020 (Best Web and Tech Production)"
+    experience:
+      - company: Productlane
+        position: Fullstack Developer (Working Student)
+        start_date: 2025-04
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Spearheaded the 'Docs' feature, enabling customers to host auto-updating product documentation publicly with embeddable widgets."
+          - "Engineered an AI chatbot using Vercel AI SDK and custom tools to perform RAG on roadmaps, changelogs, and documentation."
+          - "Stack: LangChain, Meilisearch, Next.js, Prisma, Replicache, Node.js."
+      - company: Peaklight Inc.
+        position: Founding Engineer (Freelancer)
+        start_date: 2023-10
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Employee #1 holding 5% equity; built core infrastructure using Terraform Cloud, Hetzner baremetal, and K3s (Kubernetes) with Traefik and Cloudflare."
+          - "Architected the backend pipelines to ingest, contextualize, and search news data."
+          - "Established CI/CD workflows using GitHub Actions and Container Registry, defining the developer environment for future hires."
+      - company: Technical University of Munich
+        position: Software Developer (Working Student)
+        start_date: 2021-12
+        end_date: 2023-08
+        location: Munich, Germany
+        highlights:
+          - "Developed and maintained the TUM-Livestream platform used by the entire School of CIT student body."
+          - "Implemented high-concurrency video streaming features using Go, Alpine.js, and Tailwind."
+      - company: SAP Canada
+        position: SAP Product Engineer Intern
+        start_date: 2022-08
+        end_date: 2022-10
+        location: Montreal, Canada
+        highlights:
+          - "Significantly reduced script execution time by refactoring Bash installation scripts to utilize concurrency."
+          - "Fixed critical bugs in Angular Schematics for the Spartacus Storefront App to improve reliability."
+      - company: EY
+        position: Consulting Intern
+        start_date: 2021-08
+        end_date: 2021-10
+        location: Munich, Germany
+        highlights:
+          - "Provided IT support, including creating a 'Best-Practice' IT usage strategy for an automotive association's management."
+          - "Developed a database deletion concept for a leading manufacturer ensuring compliance with EU data protection laws."
+      - company: CHECK24
+        position: Junior Software Developer
+        start_date: 2019-03
+        end_date: 2019-08
+        location: Munich, Germany
+        highlights:
+          - "Developed at the 'Contract Center' using JavaScript, ReactJS, and Express."
+          - "Initiated lightning talks, with a presentation on 'Cross-Site-Scripting' (XSS)."
+      - company: Alyne GmbH
+        position: Software Developer
+        start_date: 2017-04
+        end_date: 2018-09
+        location: Munich, Germany
+        highlights:
+          - "Developed and optimized the service platform, including a complex campaign function with JavaScript, Sails.js, Ember.js, Pusher.js, and Node.js."
+          - "Performed performance enhancements in MongoDB queries."
+    projects:
+      - name: PawnTown
+        start_date: 2022-09
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Developing an over-the-board chess event live broadcasting platform."
+          - "Implemented a custom linear graph algorithm with back-edges to predict and reconstruct missing game moves significantly faster than standard brute-force methods."
+          - "More info at pawn.town"
+      - name: WhitePawn App
+        start_date: 2021-03
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Developing a cross-platform chess app compatible with all major physical chessboards."
+          - "Recognized with the SAE Alumni Award for Best Web and Tech Production 2021."
+          - "More info at whitepawn.app and khad.im/p/white-pawn"
+      - name: Maltego Graph Enrichment Engine
+        start_date: 2023-10
+        end_date: 2024-02
+        location: Munich, Germany
+        highlights:
+          - "Led a team of 3 to build a Strategy Builder UI that compiles into Cypher queries for Neo4j/Memgraph."
+          - "Presented final prototype to Maltego stakeholders; outcome of TUM 'JavaScript Praktikum'."
+    hackathons:
+      - name: TUM.ai Makeathon (1st Place)
+        location: Munich, Germany
+        date: 2024-04
+        highlights:
+          - "Tackled a challenge by CHECK24: 'A prototype of a reverse bidding mechanism for a CHECK24 product'."
+          - "Won first place and 2000 EUR prize money with team members Paola Andrea Herrera Trigo, Jaro Müller, and Viktor Presber."
+      - name: IdeaHack! at WHU (1st Place)
+        location: Munich, Germany
+        date: 2023-10
+        highlights:
+          - "Won the Project AMIGO Challenge hosted by Dr. von Hauner Children's Hospital."
+          - "Developed and deployed AI training algorithms on a secure hospital platform to diagnose rare diseases in children."
+          - "Team: Alexandre Mercier, Leon Buser, and Franz Stelzl."
+    volunteering:
+      - company: START Munich
+        position: Community Member
+        start_date: 2023-11
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - "Developing START GPT, a chatbot based on GPT-4 for START members with knowledge of START Notion data."
+          - "Implemented advanced Notion export using Neo4j for fast delta checking and partial updates."
+      - company: ReDI School of Digital Integration
+        position: Teacher
+        start_date: 2022-08
+        end_date: 2023-08
+        location: Munich, Germany
+        highlights:
+          - "Taught 'Python for Beginners' to kids from families with migratory backgrounds."
+          - "Taught 'Introduction to Computer Science' to refugees, migrants, and Germans without access to digital education."
+    skills:
+      - label: Languages
+        details: "German (Native), English (C1/Professional), French (A1)"
+      - label: Programming
+        details: "Go, Dart, TypeScript, C, Java, Rust"
+      - label: Cloud & DevOps
+        details: "GCP, Azure, Docker, Terraform, Kubernetes"
+      - label: Interests
+        details: "Boxing, Ice Skating, Chess, Photography, Philosophical Reading & Discussions, Coding"
+locale:
+  language: english
